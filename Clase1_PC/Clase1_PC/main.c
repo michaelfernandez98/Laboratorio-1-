@@ -16,18 +16,18 @@ int main(int argc, char *argv[]) {
 	int producto;
 	int cuadrado;
 
-	system("?");
+	system("cls");
 
 	do{
 	printf("\nIngrese 1 numero: ");
-	scanf("%?",&a);
+	scanf("%d",&a);
 	printf("______________________________________\n");
 		if(a==0)
 		{
             printf("\nIngrese numero mayor a 0\n");
             printf("______________________________________\n");
 		}
-    }while(?==0);
+    }while(a==0);
 
 	do{
 	printf("\nIngrese 2\247 numero: ");
@@ -46,7 +46,7 @@ int main(int argc, char *argv[]) {
 	printf("\nEl valor 1\247: %d\nEl valor 2\247: %d\n\nEl producto es: %d\n\nEl cuadrado del 1\247 valor %d es: %d \n",a,b,producto,a,cuadrado);
 	printf("______________________________________\n\n\n\n");
 
-
+    system("pause");
 
 	return 0;
 }
