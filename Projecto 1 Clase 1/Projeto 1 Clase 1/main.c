@@ -19,7 +19,7 @@ int main()
     int limite;
 
     printf("Ingrese su nombre: \n");
-    scanf("%s",&nombre);
+    scanf("%s",nombre);
     printf("Ingrese su edad: \n");
     scanf("%d",&edad);
     printf("Ingrese su altura: \n");
@@ -31,7 +31,7 @@ int main()
     system("cls");
     limite=dameNumero();
 //5 4   4   4   4
-    for(;contador<5;limite)
+    for(contador=0;contador<limite;contador++)
     {
         printf("Ingrese un numero: ");
         scanf("%d",&numero);
